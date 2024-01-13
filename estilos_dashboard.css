@@ -1,0 +1,105 @@
+/* estilos_dashboard.css */
+
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.header h1 {
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.header a {
+    color: #007BFF;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.header a:hover {
+    text-decoration: underline;
+}
+
+.content {
+    border: 1px solid #ccc;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+p {
+    font-size: 18px;
+    line-height: 1.6;
+}
+
+/* Estilos para o container que envolve a sidebar e o plano de treinamento */
+.container {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+  }
+  
+  /* Estilos para a sidebar */
+  .sidebar {
+    flex: 0 0 25%; /* Define a largura da sidebar em 25% do container */
+    background-color: #f0f0f0;
+    padding: 10px;
+    border-radius: 5px;
+  }
+  
+  .sidebar h2 {
+    margin-bottom: 15px;
+    color: #333;
+  }
+  
+  .sidebar p {
+    margin: 5px 0;
+  }
+  
+  .sidebar a {
+    display: block;
+    margin-top: 15px;
+    padding: 10px 15px;
+    background-color: #007bff;
+    color: #fff;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 5px;
+  }
+  
+  .sidebar a:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Estilos para o plano de treinamento */
+  .plano-treinamento {
+    flex: 0 0 70%; /* Define a largura do plano de treinamento em 70% do container */
+    background-color: #fff;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .plano-treinamento h2 {
+    margin-bottom: 15px;
+    color: #333;
+  }
+  
+  .plano-treinamento p {
+    margin: 5px 0;
+  }
+
+  .perfil-img {
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    object-fit: cover;
+}

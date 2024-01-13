@@ -1,0 +1,34 @@
+/* No arquivo "estilos_menu.css" */
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+.navbar {
+    text-align: center;
+    background-color: #007bff;
+    padding: 10px 0;
+}
+
+.navbar a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+    margin: 0 10px;
+}
+
+.navbar a:hover {
+    background-color: #0056b3;
+    border-radius: 5px;
+    padding: 5px 10px;
+}
+
+@media screen and (max-width: 600px) {
+    .navbar a {
+        float: none;
+        display: block;
+        text-align: left;
+    }
+}
